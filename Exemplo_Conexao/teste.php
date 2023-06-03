@@ -27,9 +27,10 @@ foreach($dataBase as $doisValores)
         $saidas[] = $doisValores;
 }
 
+//echo var_dump($saidas);
+
 $final = array();
 
-//echo var_dump($saidas);
 
 foreach($saidas as $doisValores)
 {
@@ -54,9 +55,9 @@ foreach($dataBase as $doisValores)
         $saidas[] = $doisValores;
 }
 
-$final = array();
-
 //echo var_dump($saidas);
+
+$final = array();
 
 foreach($saidas as $doisValores)
 {
@@ -64,7 +65,8 @@ foreach($saidas as $doisValores)
         $final[] = $doisValores;
 }
 
-echo var_dump($final);
+//echo var_dump($final);
+
 
 if(!empty($final))
 {
@@ -72,21 +74,35 @@ if(!empty($final))
     echo "Retornou";
 }
 
+// A ----> X ----> E
+
 //SEGUNDA VERIFICAÇÃO: Conexao
 
-$chegadas = array();
+// Primeiro voo
+$primeiros = array();
+
+foreach($dataBase as $doisValores)
+{
+    if($doisValores->saida() == $A)
+        $primeiros[] = $doisValores;
+}
+
+
+
+// Segundo voo
+$segundos = array();
 
 foreach($dataBase as $doisValores)
 {
     if($doisValores->chegada() == $E)
-        $chegadas[] = $doisValores;
+        $segundos[] = $doisValores;
 }
 
 $conexao = array();
 
-foreach($saidas as $primeiro)
+foreach($primeiros as $primeiro)
 {
-    foreach($chegadas as $segundo)
+    foreach($segundos as $segundo)
     {
         if($primeiro->chegada() == $segundo->saida())
         {
