@@ -8,7 +8,7 @@ Guia explicativo sobre como serão ministradas as monitorias de programação or
 
 ## Canais de monitoria
 
-A monitoria será aplicada na sala (sala aqui) na UFMG, presencialmente, e em Discord aos sábados com acesso pelo link
+A monitoria será aplicada na sala (sala aqui) na UFMG, presencialmente, e em Discord aos sábados com acesso por este [link](https://discord.com/invite/vKkqpxv8R).
 
 ## Cronograma semanal
 
@@ -16,15 +16,17 @@ Todas as semanas será ministrado um minicurso acerca de um tema pré-definido p
 
 Serão os seguintes horários de monitoria:
 
-- Terça 16:50 -> 18:50 (2 horas)
+- Terça 09:30 -> 11:30 (sala 1050 no Bloco 3)
 
-- Quarta 09:30 -> 11:30 (2 horas)
+- Quarta 09:30 -> 11:30 (sala 310 no CCE)
 
-- Quinta 14:50 -> 16:50 (2 horas)
+- Quarta 16:00 -> 18:00 (sala 1050 no Bloco 3)
 
-- Sexta 09:30 -> 11:30 (2 horas)
+- Quinta 09:30 -> 11:30 (sala 1050 no Bloco 3)
 
-- Sabado 10:00 -> 12:00 (online via Discord) (2 horas)
+- Sexta 09:30 -> 11:30 (sala 310 no CCE)
+
+- Sabado 10:00 -> 12:00 (online via Discord)
 
 ## Mini-Cursos a serem ministrados
 
