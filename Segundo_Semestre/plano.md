@@ -38,7 +38,7 @@ Iremos aprender a instalar o PHP localmente, a criar programas em PHP e executá
 
 Iremos aprender a utilizar as plataformas de versionamento como GitHub e GitLab para trabalhar em equipe no desenvolvimento de projetos.
 
-### Boas práticas e padrões de projeto: Nomes e Comentários (20/09)
+### Boas práticas e padrões de projeto: Nomes, Comentários e Testes (20/09)
 
 Iremos entender o básico da criação de projetos como as boas práticas de nomenclatura para classes, variáveis e constantes. Iremos aprender a manter uma boa hierarquia de arquivos e a criar bons arquivos de teste para nossas classes. Iremos aprender a documentar por meio de comentários e arquivos MarkDown.
 
