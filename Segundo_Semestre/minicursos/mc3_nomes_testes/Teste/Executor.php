@@ -30,8 +30,6 @@ class Executor {
 
         }
 
-        //var_dump($lista_de_testes);
-        //var_dump($lista_de_arquivos);
     }
 
 }

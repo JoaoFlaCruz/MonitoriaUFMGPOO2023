@@ -26,4 +26,10 @@ class Calculadora {
 
     }
 
+    public function joga_excecao() {
+
+        throw new Exception("Teste de exceção!");
+
+    }
+
 }
