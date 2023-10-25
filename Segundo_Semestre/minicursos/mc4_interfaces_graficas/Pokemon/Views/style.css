@@ -1,0 +1,39 @@
+.externo {
+    text-align: center;
+    width: 100%;
+}
+
+.interno {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #EA5007;
+}
+
+.container_pokemon {
+    width: 130px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #EA5007;
+}
+
+button {
+    background-color: #EA5007;
+    color: white;
+}
+
+h1 {
+    color: #EA5007;
+    justify-content: center;
+    align-self: center;
+}
+
+body {
+    background-color: #F89912;
+}
