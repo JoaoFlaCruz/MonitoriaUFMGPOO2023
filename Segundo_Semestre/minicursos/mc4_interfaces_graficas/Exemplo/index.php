@@ -1,3 +1,9 @@
+<?php
+
+throw new Exception("Exceção");
+
+?>
+
 
 <html>
 
