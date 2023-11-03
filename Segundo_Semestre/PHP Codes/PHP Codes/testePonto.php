@@ -4,8 +4,8 @@
    include_once("class.funcionario.php");
 
 
-   
-    $dataAgora = new DateTime("now");   
+
+    $dataAgora = new DateTime("now");
     $po = new pontoOnline( $dataAgora );
     print_r($po);
 
@@ -28,5 +28,3 @@
     $func->addPonto( $poff );
     $func->addPonto( $poff2 );
     $func->printPontos();
-    
-    date_diff()
