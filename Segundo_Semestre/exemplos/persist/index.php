@@ -2,11 +2,11 @@
 
 require_once "Aluno.php";
 
-//$augusto = new Aluno(2, "Augusto");
+//$augusto = new Aluno(1, "Pedro");
 //$augusto->save();
 
-$array_de_augustos = Aluno::getRecordsByField("name", "Augusto");
+$array = Aluno::getRecordsByField("id", "1");
 
-var_dump($array_de_augustos);
+var_dump($array);
 
-echo "Nome: " . $array_de_augustos[1]->name() . "\n";
+echo "O nome é: " . $array[0]->name();

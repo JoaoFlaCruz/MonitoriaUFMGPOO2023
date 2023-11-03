@@ -18,4 +18,10 @@ class Aluno extends persist {
 
     }
 
+    public function id(): int {
+
+        return $this->id;
+
+    }
+
 }
