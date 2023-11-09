@@ -1,15 +1,17 @@
 <?php
 
+require_once "Exemplo.php";
+require_once "Registrador.php";
 
-class Exemplo {
+$ex = new Exemplo();
+$ex->faz_algo();
 
-    public function chamar() {
+echo "A ultima função chamada foi: " . Registrador::funcao_mais_recente() . "\n";
 
-        echo "Função: " . debug_backtrace()[0]['function'] . "\n";
+$ex->faz_algo2();
 
-    }
+echo "A ultima função chamada foi: " . Registrador::funcao_mais_recente() . "\n";
 
-}
+$ex->faz_algo3();
 
-
-(new Exemplo())->chamar();
+echo "A ultima função chamada foi: " . Registrador::funcao_mais_recente() . "\n";
