@@ -1,13 +1,4 @@
 <?php
-//$userC = new UsuarioControler();
-//$verificado = $userC->fazLoggin($_GET['usuer'], $_GET['key']);
-/*
-if($verificado)
-{
-    header("Location: Views/showAll.php");
-    exit();
-}*/
-
 $verificado = $_GET['validador'] === "true";
 
 if($verificado)

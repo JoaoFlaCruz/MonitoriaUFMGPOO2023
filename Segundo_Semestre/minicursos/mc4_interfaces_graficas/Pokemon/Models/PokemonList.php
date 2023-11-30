@@ -31,4 +31,10 @@ class PokemonList
     {
         return $this->pokemonList[$number][' Name'];
     }
+
+    public function getSize(): int {
+
+        return sizeof($this->pokemonList);
+
+    }
 }

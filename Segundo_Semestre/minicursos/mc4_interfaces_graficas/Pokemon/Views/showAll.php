@@ -31,7 +31,7 @@
 
             <form action="/Views/showIndividual.php" method="post">
                 <?php
-                for($i = 1; $i < 152; $i++)
+                for($i = 1; $i < $listC->getSize() + 1; $i++)
                 {
                 ?>
                     <div class="container_pokemon">

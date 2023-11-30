@@ -22,4 +22,10 @@ class PokemonListControler
         return "/../images/pokemons/" . $number . ".png";
     }
 
+    public function getSize(): int {
+
+        return $this->pokemonList->getSize();
+
+    }
+
 }
