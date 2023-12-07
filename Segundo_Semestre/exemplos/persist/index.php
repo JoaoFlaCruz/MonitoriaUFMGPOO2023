@@ -2,8 +2,8 @@
 
 require_once "Aluno.php";
 
-//$augusto = new Aluno(1, "Pedro");
-//$augusto->save();
+$augusto = new Aluno(1, "Pedro");
+$augusto->save();
 
 $array = Aluno::getRecordsByField("id", "1");
 

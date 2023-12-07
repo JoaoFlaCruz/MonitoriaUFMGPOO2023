@@ -1,8 +1,8 @@
 <?php
 
-require_once "persist.php";
+require_once "AlunoAbst.php";
 
-class Aluno extends persist {
+class Aluno extends AlunoAbst {
 
     private int $id;
     private string $name;
